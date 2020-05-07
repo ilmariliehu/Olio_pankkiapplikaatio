@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround2"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="406dp"
+        android:layout_height="98dp"
+        android:gravity="center"
+        android:text="Tervetuloa pankkiapplikaatioon!"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        app:fontFamily="@font/candal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="105dp"
+        android:layout_height="99dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="214dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/EditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView"
+        app:layout_constraintVertical_bias="0.675"
+        app:srcCompat="@drawable/ic_account_balance_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="131dp"
+        android:layout_height="27dp"
+        android:cursorVisible="true"
+        android:text="Luo uusi käyttäjä"
+        android:textColor="#3246BE"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Button"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Kirjaudu sisään"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText2"
+        app:layout_constraintVertical_bias="0.174"
+        tools:ignore="InvalidId">
+
+    </Button>
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Syötä salasana"
+        android:inputType="textPassword"
+        android:textColor="@color/colorWhite"
+        android:textColorHighlight="#00AFAAAA"
+        android:textColorHint="@color/colorWhite"
+        android:textColorLink="#00AFAAAA"
+        android:textCursorDrawable="@color/colorAccent"
+        android:textSize="21sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Syötä käyttäjänimi"
+        android:textColor="@color/colorWhite"
+        android:textColorHighlight="#00AFAAAA"
+        android:textColorHint="@color/colorWhite"
+        android:textColorLink="#00AFAAAA"
+        android:textCursorDrawable="@color/colorAccent"
+        android:textSize="21sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415">
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="122dp"
+        android:layout_height="102dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274"
+        app:srcCompat="@drawable/ic_attach_money_black_24dp"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="122dp"
+        android:layout_height="102dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274"
+        app:srcCompat="@drawable/ic_attach_money_black_24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

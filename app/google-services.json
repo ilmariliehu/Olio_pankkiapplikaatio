@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1063239316987",
+    "firebase_url": "https://harkkatyo-42b7b.firebaseio.com",
+    "project_id": "harkkatyo-42b7b",
+    "storage_bucket": "harkkatyo-42b7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063239316987:android:899c945fa6fbeeb1da875e",
+        "android_client_info": {
+          "package_name": "com.example.harkkaty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063239316987-17uufsafpgoqng5j9bh23jabbrk3mb3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harkkaty",
+            "certificate_hash": "a61e1d98cd2ece8acad29284974c204ba284ebaa"
+          }
+        },
+        {
+          "client_id": "1063239316987-40bm4vq7b0vogd2ehqg27n19p7v37921.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtmGdPvO10UA63x3HggnKtqDmYQ1jHxMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063239316987-40bm4vq7b0vogd2ehqg27n19p7v37921.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

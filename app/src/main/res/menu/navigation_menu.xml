@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Settings"
+        android:title="Käyttäjätietojen hallinta"
+        android:icon="@drawable/ic_settings_black_24dp"
+        >
+    </item>
+    <item
+        android:id="@+id/Cards"
+        android:title="Korttien hallinta"
+        android:icon="@drawable/ic_credit_card_black_24dp"
+        >
+    </item>
+    <item
+        android:id="@+id/Accounts"
+        android:title="Tilien hallinta"
+        android:icon="@drawable/ic_filter_none_black_24dp"
+        >
+    </item>
+    <item
+        android:id="@+id/deposit"
+        android:title="Talletus"
+        android:icon="@drawable/ic_local_atm_black_24dp"
+        >
+    </item>
+    <item
+        android:id="@+id/withdrawl"
+        android:title="Rahan siirto"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        >
+    </item>
+    <item
+        android:id="@+id/payCard"
+        android:title="Korttimaksut ja -nostot"
+        android:icon="@drawable/ic_credit_card_black_24dp"
+        >
+    </item>
+    <item
+        android:id="@+id/Transactions"
+        android:title="Tilitapahtumat"
+        android:icon="@drawable/ic_transfer_within_a_station_black_24dp"
+        >
+    </item>
+    <item
+        android:id="@+id/Logout"
+        android:title="Kirjaudu ulos"
+        android:icon="@drawable/ic_lock_outline_black_24dp"
+        >
+    </item>
+</menu>
